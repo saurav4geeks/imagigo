@@ -37,15 +37,13 @@ router.route("/").post(async (req, res) => {
       photo: photoUrl.url,
     });
 
-    res
-      .status(200)
-      .json({
-        success: true,
-        data: newPost,
-        name: name,
-        prompt: prompt,
-        photo: photo,
-      });
+    res.status(200).json({
+      success: true,
+      data: newPost,
+      name: name,
+      prompt: prompt,
+      photo: photo,
+    });
   } catch (err) {
     res.status(500).json({
       success: false,
