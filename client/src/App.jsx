@@ -34,7 +34,10 @@ const App = () => {
         <footer className="sm:p-8 px-4 py-8 w-full bg-[#0d1117]">
           <p className="mt-2 text-[#8b949e] text-[14px] text-center">
             Made with <span style={{ color: "#e25555" }}>❤️</span> by{" "}
-            <a href="http://https://www.linkedin.com/in/saurav-suman-ind/">
+            <a
+              href="https://www.linkedin.com/in/saurav-suman-ind/"
+              target={"_blank"}
+            >
               Saurav Suman.
             </a>
           </p>
