@@ -60,7 +60,7 @@ const CreatePost = () => {
       setLoading(true);
       try {
         const response = await fetch(
-          "https://dall-e-qkvx.onrender.com/api/v1/dalle",
+          "https://dall-e-qkvx.onrender.com/api/v1/post",
           {
             method: "POST",
             headers: {
